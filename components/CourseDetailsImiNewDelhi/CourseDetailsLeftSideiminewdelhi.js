@@ -1,10 +1,4 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination } from "swiper";
-import { useSelector } from "react-redux";
-
-import Link from "next/link";
-
-const CourseDetailsLeftSide = () => {
+const CourseDetailsLeftSideiminewdelhi = () => {
   return (
     <>
       <div className="col-xxl-8 col-xl-8 col-lg-8">
@@ -279,4 +273,4 @@ const CourseDetailsLeftSide = () => {
   );
 };
 
-export default CourseDetailsLeftSide;
+export default CourseDetailsLeftSideiminewdelhi;
