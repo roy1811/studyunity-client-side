@@ -3,7 +3,7 @@ const CourseDetailsLeftSideiminewdelhi = () => {
     <>
       <div className="col-xxl-8 col-xl-8 col-lg-8">
         <div className="course__wrapper">
-          <h1>International Management Institute IMI New Delhi</h1>
+          <h2>International Management Institute IMI</h2>
 
           <div className="course__tab-content mb-9">
             <div className="tab-content" id="courseTabContent">
