@@ -246,7 +246,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/bml-munjal-university">
                       <img
                         src="assets/img/course/management/BMI.JPEG"
                         alt="BMI"
@@ -256,7 +256,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Gurugram</a>
+                        <a href="#">Gurugram</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -272,11 +272,11 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">BML Munjal University</a>
+                      <a href="/bml-munjal-university">BML Munjal University</a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details">
+                        <Link href="/bml-munjal-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -287,7 +287,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/imt-ghaziabad">
                       <img
                         src="assets/img/course/management/imt.jpg"
                         alt="imt"
@@ -297,7 +297,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Ghaziabad</a>
+                        <a href="/imt-ghaziabad">Ghaziabad</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -313,11 +313,11 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">IMT Ghaziabad</a>
+                      <a href="/imt-ghaziabad">IMT Ghaziabad</a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/imt-ghaziabad">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -340,7 +340,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/622037c6ea7975d304b6b4f5">
+                    <a href="/bennett-university">
                       <img
                         src="assets/img/course/engineering/Bennett.jpg"
                         alt="bennett"
@@ -350,7 +350,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Greater Noida</a>
+                        <a href="/bennett-university">Greater Noida</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -366,13 +366,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
+                      <a href="/bennett-university">
                         Bennett University Greater Noida
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/about">
+                        <Link href="bennett-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -383,7 +383,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/dy-patil-college">
                       <img
                         src="assets/img/course/engineering/DYpatil.PNG"
                         alt="DYpatil"
@@ -393,7 +393,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Pune</a>
+                        <a href="/dy-patil-college">Pune</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -409,13 +409,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
+                      <a href="/dy-patil-college">
                         DY Patil College of Engineering
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/dy-patil-college">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -426,7 +426,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/niet">
                       <img
                         src="assets/img/course/engineering/NIET.WEBP"
                         alt="NIET"
@@ -436,7 +436,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Greater Noida</a>
+                        <a href="/niet">Greater Noida</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -452,11 +452,11 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">NIET, Greater Noida</a>
+                      <a href="/niet">NIET, Greater Noida</a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/niet">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -467,7 +467,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/symbiosis-international-university">
                       <img
                         src="assets/img/course/engineering/Symbiosis.WEBP"
                         alt="Symbiosis"
@@ -477,7 +477,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Pune</a>
+                        <a href="/symbiosis-international-university">Pune</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -493,13 +493,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
+                      <a href="/symbiosis-international-university">
                         Symbiosis International University
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details">
+                        <Link href="/symbiosis-international-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -510,7 +510,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/abes-engineering-college">
                       <img
                         src="assets/img/course/engineering/ABES.JPEG"
                         alt="ABES Engineering College"
@@ -520,7 +520,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Ghaziabad</a>
+                        <a href="/abes-engineering-college">Ghaziabad</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -536,11 +536,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">ABES Engineering College</a>
+                      <a href="/abes-engineering-college">
+                        ABES Engineering College
+                      </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/abes-engineering-college">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -551,7 +553,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/gl-bajaj-institute">
                       <img
                         src="assets/img/course/engineering/GLbajaj.JPEG"
                         alt="GLbajaj"
@@ -561,9 +563,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/622037c6ea7975d304b6b4f5">
-                          Greater Noida
-                        </a>
+                        <a href="/gl-bajaj-institute">Greater Noida</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -579,13 +579,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/622037c6ea7975d304b6b4f5">
+                      <a href="/gl-bajaj-institute">
                         GL Bajaj Institute of Technology
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/gl-bajaj-institute">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -608,7 +608,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/bau-international-university">
                       <img
                         src="assets/img/course/mbbs_abroad/bau.jpg"
                         alt="bau"
@@ -618,7 +618,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Georgia</a>
+                        <a href="/bau-international-university">Georgia</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -634,13 +634,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
+                      <a href="/bau-international-university">
                         Bau International University
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/about">
+                        <Link href="/bau-international-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -651,7 +651,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/ingush-state-university">
                       <img
                         src="assets/img/course/mbbs_abroad/kazan.jpg"
                         alt="Ingush"
@@ -661,7 +661,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Russia</a>
+                        <a href="/ingush-state-university">Russia</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -677,11 +677,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">Ingush State University</a>
+                      <a href="/ingush-state-university">
+                        Ingush State University
+                      </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/ingush-state-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -692,7 +694,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/kazakh-national-medical-university">
                       <img
                         src="assets/img/course/mbbs_abroad/kazakh.jpg"
                         alt="kazakh"
@@ -702,7 +704,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/622037c6ea7975d304b6b4f5">
+                        <a href="/kazakh-national-medical-university">
                           Kazakhstan
                         </a>
                       </div>
@@ -720,13 +722,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
+                      <a href="/kazakh-national-medical-university">
                         kazakh national medical university
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details">
+                        <Link href="/kazakh-national-medical-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -737,7 +739,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/voronezh-state-medical-university">
                       <img
                         src="assets/img/course/mbbs_abroad/Voronezh.jpg"
                         alt="Voronezh"
@@ -747,7 +749,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Russia</a>
+                        <a href="/voronezh-state-medical-university">Russia</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -763,13 +765,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/622037c6ea7975d304b6b4f5">
+                      <a href="/voronezh-state-medical-university">
                         Voronezh State Medical University
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details">
+                        <Link href="/voronezh-state-medical-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -780,7 +782,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/brokenshire-college">
                       <img
                         src="assets/img/course/mbbs_abroad/Brokenshire.jpg"
                         alt=""
@@ -790,7 +792,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Philippines</a>
+                        <a href="/brokenshire-college">Philippines</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -806,13 +808,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
+                      <a href="/brokenshire-college">
                         Brokenshire College of Medicine
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details">
+                        <Link href="/brokenshire-college">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -823,7 +825,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/osh-state-medical-university">
                       <img
                         src="assets/img/course/mbbs_abroad/Osh.WEBP"
                         alt=""
@@ -833,7 +835,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Kyrgyzstan</a>
+                        <a href="/osh-state-medical-university">Kyrgyzstan</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -849,13 +851,13 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
+                      <a href="/osh-state-medical-university">
                         Osh State Medical University
                       </a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/about">
+                        <Link href="/osh-state-medical-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>

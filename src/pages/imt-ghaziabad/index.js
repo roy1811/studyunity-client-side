@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import BreadCrumb from "../../../components/common/BreadCrumb";
 import Footer from "../../../components/common/Footer";
-import CourseDetailsArea from "../../../components/CourseDetailsImiNewDelhi/CourseDetailsArea";
+import CourseDetailsArea from "../../../components/CourseDetailsImtGhaziabad/CourseDetailsArea";
 import Header from "../../../components/Home/Header";
 import SEO from "../../../components/seo";
 import { useGetCourseQuery } from "../../../redux/api/apiSlice";
-import DetailsTabItems from "../../../components/CourseDetailsImiNewDelhi/DetailsTabItems";
+import DetailsTabItems from "../../../components/CourseDetailsImtghaziabad/DetailsTabItems";
 
-const Iminewdelhi = () => {
+const Imtghaziabad = () => {
   const {
     data: course,
     isLoading,
@@ -43,4 +43,4 @@ const Iminewdelhi = () => {
   );
 };
 
-export default Iminewdelhi;
+export default Imtghaziabad;
