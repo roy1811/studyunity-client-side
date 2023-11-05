@@ -1,5 +1,5 @@
 import React from "react";
-import CourseDetailsLeftSideIilmUniversity from "./CourseDetailsLeftSideIilmUniversity";
+import CourseDetailsLeftSide from "./CourseDetailsLeftSide";
 import CourseDetailsRightSide from "./CourseDetailsRightSide";
 
 const CourseDetailsArea = ({ courseData }) => {
@@ -8,7 +8,7 @@ const CourseDetailsArea = ({ courseData }) => {
       <section className="course__area pt-50 pb-25">
         <div className="container">
           <div className="row">
-            <CourseDetailsLeftSideIilmUniversity courseData={courseData} />
+            <CourseDetailsLeftSide courseData={courseData} />
             <CourseDetailsRightSide courseData={courseData} />
           </div>
         </div>

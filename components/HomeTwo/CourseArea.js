@@ -213,9 +213,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/622037c6ea7975d304b6b4f5">
-                          Delhi
-                        </a>
+                        <a href="/lbsim-delhi">Delhi</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -231,11 +229,11 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">LBSIM Delhi</a>
+                      <a href="/lbsim-delhi">LBSIM Delhi</a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/lbsim-delhi">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>

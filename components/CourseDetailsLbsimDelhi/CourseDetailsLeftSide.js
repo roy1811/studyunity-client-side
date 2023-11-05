@@ -1,4 +1,4 @@
-const CourseDetailsLeftSideLbsimDelhi = () => {
+const CourseDetailsLeftSide = () => {
   return (
     <>
       <div className="col-xxl-8 col-xl-8 col-lg-8">
@@ -273,4 +273,4 @@ const CourseDetailsLeftSideLbsimDelhi = () => {
   );
 };
 
-export default CourseDetailsLeftSideLbsimDelhi;
+export default CourseDetailsLeftSide;
