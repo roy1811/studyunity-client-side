@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import BreadCrumb from "../../../components/common/BreadCrumb";
 import Footer from "../../../components/common/Footer";
-import CourseDetailsArea from "../../../components/CourseDetailsIilmUniversity/CourseDetailsArea";
+import CourseDetailsArea from "../../../components/CourseDetailsIilm/CourseDetailsArea";
 import Header from "../../../components/Home/Header";
 import SEO from "../../../components/seo";
 import { useGetCourseQuery } from "../../../redux/api/apiSlice";
-import DetailsTabItems from "../../../components/CourseDetailsIilmUniversity/DetailsTabItems";
+import DetailsTabItems from "../../../components/CourseDetailsIilm/DetailsTabItems";
 
 const IilmUniversity = () => {
   const {

@@ -80,7 +80,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details">
+                    <a href="/imi-new-delhi">
                       <img
                         src="assets/img/course/management/imi.jpg"
                         alt="imi delhi"
@@ -90,7 +90,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details">New Delhi</a>
+                        <a href="/imi-new-delhi">New Delhi</a>
                       </div>
                       <div className="course__price-2">
                         <span>
