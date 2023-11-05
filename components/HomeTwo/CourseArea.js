@@ -106,11 +106,11 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details">IMI, Delhi</a>
+                      <a href="/imi-new-delhi">IMI, Delhi</a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/imi-new-delhi">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -121,7 +121,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details">
+                    <a href="/gniot">
                       <img
                         src="assets/img/course/management/GNIOT.jpg"
                         alt="GNIOT"
@@ -131,7 +131,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details">GreaterNoida</a>
+                        <a href="/gniot">GreaterNoida</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -147,13 +147,11 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/">
-                        Greater Noida Institute of Technology
-                      </a>
+                      <a href="/gniot">Greater Noida Institute of Technology</a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details/">
+                        <Link href="/gniot">
                           <a className="tp-btn-5 tp-btn-6 ">KnowMore</a>
                         </Link>
                       </div>
@@ -164,7 +162,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/622037c6ea7975d304b6b4f5">
+                    <a href="/iilm-university">
                       <img
                         src="assets/img/course/management/IILM.jpg"
                         alt="IILM"
@@ -174,7 +172,7 @@ const CourseArea = () => {
                   <div className="course__content-2">
                     <div className="course__top-2 d-flex align-items-center justify-content-between">
                       <div className="course__tag-2">
-                        <a href="/course-details/">Gurugram</a>
+                        <a href="/iilm-university">Gurugram</a>
                       </div>
                       <div className="course__price-2">
                         <span>
@@ -190,13 +188,11 @@ const CourseArea = () => {
                       </div>
                     </div>
                     <h3 className="course__title-2">
-                      <a href="/course-details/622037c6ea7975d304b6b4f5">
-                        IILM University, Gurugram
-                      </a>
+                      <a href="/iilm-university">IILM University, Gurugram</a>
                     </h3>
                     <div className="course__bottom-2 d-flex align-items-center justify-content-center">
                       <div className="">
-                        <Link href="/course-details">
+                        <Link href="/iilm-university">
                           <a className="tp-btn-5 tp-btn-6 ">Know More</a>
                         </Link>
                       </div>
@@ -207,7 +203,7 @@ const CourseArea = () => {
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item-2 transition-3 white-bg mb-30 fix">
                   <div className="course__thumb-2 w-img fix course_thumb_height">
-                    <a href="/course-details/">
+                    <a href="/lbsim-delhi">
                       <img
                         src="assets/img/course/management/lbsim.JPEG"
                         alt="Lbsim"

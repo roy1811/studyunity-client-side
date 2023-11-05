@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import BreadCrumb from "../../../components/common/BreadCrumb";
 import Footer from "../../../components/common/Footer";
-import CourseDetailsArea from "../../../components/CourseDetailsIilmUniversity/CourseDetailsArea";
+import CourseDetailsArea from "../../../components/CourseDetailsGniot/CourseDetailsArea";
 import Header from "../../../components/Home/Header";
 import SEO from "../../../components/seo";
 import { useGetCourseQuery } from "../../../redux/api/apiSlice";
-import DetailsTabItems from "../../../components/CourseDetailsIilmUniversity/DetailsTabItems";
+import DetailsTabItems from "../../../components/CourseDetailsGniot/DetailsTabItems";
 
-const IilmUniversity = () => {
+const Gniot = () => {
   const {
     data: course,
     isLoading,
@@ -31,7 +31,7 @@ const IilmUniversity = () => {
   return (
     <>
       <SEO
-        pageTitle="IMI New Delhi"
+        pageTitle="GNIOT"
         keywords="International Management Institute IMI New Delhi, IMI Admission Process, imi new delhi, best management colloge in new delhi, imi new delhi fees"
       />
       <Header />
@@ -43,4 +43,4 @@ const IilmUniversity = () => {
   );
 };
 
-export default IilmUniversity;
+export default Gniot;

@@ -31,7 +31,7 @@ const IilmUniversity = () => {
   return (
     <>
       <SEO
-        pageTitle="IMI New Delhi"
+        pageTitle="Iilm University"
         keywords="International Management Institute IMI New Delhi, IMI Admission Process, imi new delhi, best management colloge in new delhi, imi new delhi fees"
       />
       <Header />
