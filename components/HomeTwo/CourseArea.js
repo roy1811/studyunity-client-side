@@ -123,7 +123,7 @@ const CourseArea = () => {
                   <div className="course__thumb-2 w-img fix course_thumb_height">
                     <a href="/gniot">
                       <img
-                        src="assets/img/course/management/GNIOT.jpg"
+                        src="assets/img/course/management/GNIOT.png"
                         alt="GNIOT"
                       />
                     </a>
@@ -164,7 +164,7 @@ const CourseArea = () => {
                   <div className="course__thumb-2 w-img fix course_thumb_height">
                     <a href="/iilm-university">
                       <img
-                        src="assets/img/course/management/IILM.jpg"
+                        src="assets/img/course/management/iilm.jpg"
                         alt="IILM"
                       />
                     </a>
@@ -205,7 +205,7 @@ const CourseArea = () => {
                   <div className="course__thumb-2 w-img fix course_thumb_height">
                     <a href="/lbsim-delhi">
                       <img
-                        src="assets/img/course/management/lbsim.JPEG"
+                        src="assets/img/course/management/lbsim.jpg"
                         alt="Lbsim"
                       />
                     </a>
@@ -246,7 +246,7 @@ const CourseArea = () => {
                   <div className="course__thumb-2 w-img fix course_thumb_height">
                     <a href="/bml-munjal-university">
                       <img
-                        src="assets/img/course/management/BMI.JPEG"
+                        src="assets/img/course/management/BMi.jpg"
                         alt="BMI"
                       />
                     </a>
@@ -1136,7 +1136,7 @@ const CourseArea = () => {
   }
   return (
     <>
-      <section className="course__area grey-bg-4 pt-90 pb-90">
+      <section className="course__area grey-bg-4 pt-40 pb-90">
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">

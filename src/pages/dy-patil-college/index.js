@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import BreadCrumb from "../../../components/common/BreadCrumb";
+import BreadCrumb from "../../../components/CourseDetailsDyPatil/BreadCrumb";
 import Footer from "../../../components/common/Footer";
 import CourseDetailsArea from "../../../components/CourseDetailsDyPatil/CourseDetailsArea";
 import Header from "../../../components/Home/Header";

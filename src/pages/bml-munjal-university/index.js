@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import BreadCrumb from "../../../components/common/BreadCrumb";
+import BreadCrumb from "../../../components/CourseDetailsBmlMunjalUniversity/BreadCrumb";
 import Footer from "../../../components/common/Footer";
 import CourseDetailsArea from "../../../components/CourseDetailsBmlMunjalUniversity/CourseDetailsArea";
 import Header from "../../../components/Home/Header";
@@ -35,7 +35,7 @@ const Bmlmunjaluniversity = () => {
         keywords="International Management Institute IMI New Delhi, IMI Admission Process, imi new delhi, best management colloge in new delhi, imi new delhi fees"
       />
       <Header />
-      <BreadCrumb title="Our Courses" subtitle="Courses" />
+      <BreadCrumb />
 
       {content}
       <Footer />

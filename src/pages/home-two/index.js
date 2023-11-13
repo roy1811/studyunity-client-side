@@ -14,7 +14,8 @@ import SEO from "../../../components/seo";
 const HomeTwo = () => {
   return (
     <>
-      <SEO pageTitle="Home Two" />
+      <SEO pageTitle="Study Unity" />
+
       <HomeTwoHeader />
       <HeroArea />
       <CategoryArea />

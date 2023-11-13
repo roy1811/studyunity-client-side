@@ -3,7 +3,7 @@ const CourseDetailsLeftSideGniot = () => {
     <>
       <div className="col-xxl-8 col-xl-8 col-lg-8">
         <div className="course__wrapper">
-          <h2>International Management Institute IMI</h2>
+          <h2>Greater Noida Institute of Technology</h2>
 
           <div className="course__tab-content mb-9">
             <div className="tab-content" id="courseTabContent">
@@ -14,59 +14,169 @@ const CourseDetailsLeftSideGniot = () => {
                 aria-labelledby="description-tab"
               >
                 <div className="course__description">
-                  <h3>Highlights</h3>
-                  <table className="table table-striped style_table">
+                  <p>
+                    <strong>Highlights:</strong>
+                  </p>
+                  <table class="table table-striped table-bordered style_table">
+                    <tbody>
+                      <tr>
+                        <td width="654">
+                          <p>Name of the Institute</p>
+                        </td>
+                        <td width="707">
+                          <p>
+                            Greater Noida Institute of Technology MBA Institute
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="654">
+                          <p>Institute Type</p>
+                        </td>
+                        <td width="707">
+                          <p>Private</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="654">
+                          <p>Basic Admission Criteria</p>
+                        </td>
+                        <td width="707">
+                          <p>Entrance Based</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="654">
+                          <p>Application Mode</p>
+                        </td>
+                        <td width="707">
+                          <p>Offline and Online</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="654">
+                          <p>Name of the entrance</p>
+                        </td>
+                        <td width="707">
+                          <p>MBA: UPSEE-MBA/ CAT/ MAT</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="654">
+                          <p>Entrance mode</p>
+                        </td>
+                        <td width="707">
+                          <p>
+                            CAT: Online MAT: Online and Offline UPSEE-MBA:
+                            Offline
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="654">
+                          <p>Scholarship</p>
+                        </td>
+                        <td width="707">
+                          <p>No</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>
+                    <strong>Note:</strong>&nbsp;The dates listed above are
+                    approximate and based on important dates from the prior
+                    year. They may change at any time.
+                  </p>
+                </div>
+              </div>
+
+              <div id="curriculum">
+                <div>
+                  <h3>
+                    <strong>GNIOT MBA Institute MBA Admission:</strong>
+                  </h3>
+                  <p>
+                    Greater Noida Institute of Technology offers an MBA
+                    programme with six different specialisations. Students are
+                    eligible for admission to MBA programmes if they have earned
+                    a Bachelor's degree in any relevant field with at least a
+                    50% grade point average. For the admission of the qualified
+                    and deserving candidates, the Institute holds a written
+                    examination, a group discussion, and an interview round.
+                  </p>
+                  <p>
+                    However, applicants who have passed the UPSEE, MAT, CAT, or
+                    any other equivalent exam may apply directly for admission
+                    with their valid score and are exempt from taking the
+                    written test; however, passing the GD and PI is required of
+                    them. Final candidates are chosen based on their academic
+                    standing, extracurricular involvement, and scores in the
+                    written test, group discussion, and&nbsp;
+                    <strong>performance interview.</strong>
+                  </p>
+                  <table class="table style_table table-striped table-bordered ">
                     <tbody>
                       <tr>
                         <td>
                           <p>
-                            <strong>Full name</strong>
+                            <strong>Course Name</strong>
                           </p>
                         </td>
                         <td>
                           <p>
-                            International Management Institute IMI New Delhi
+                            <strong>Specializations</strong>
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            <strong>Minimum Eligibility</strong>
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            <strong>Selection Criteria</strong>
                           </p>
                         </td>
                       </tr>
                       <tr>
-                        <td>
-                          <p>
-                            <strong>Founded year</strong>
-                          </p>
+                        <td rowspan="6">
+                          <p>MBA</p>
                         </td>
                         <td>
-                          <p>1981</p>
+                          <p>Human Resources</p>
+                        </td>
+                        <td rowspan="6">
+                          <p>
+                            Graduation in any discipline with minimum 50% marks
+                          </p>
+                        </td>
+                        <td rowspan="6">
+                          <p>UPSEE/ MAT merit/ Academic performance</p>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <p>
-                            <strong>Located City</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>New Delhi</p>
+                          <p>Marketing</p>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <p>
-                            <strong>Entrance Exam</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>CAT</p>
+                          <p>Finance Management</p>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <p>
-                            <strong>Approved by</strong>
-                          </p>
+                          <p>Information Technology</p>
                         </td>
+                      </tr>
+                      <tr>
                         <td>
-                          <p>AICTE, NBA</p>
+                          <p>International Business</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p>Operation</p>
                         </td>
                       </tr>
                     </tbody>
@@ -74,94 +184,156 @@ const CourseDetailsLeftSideGniot = () => {
                 </div>
               </div>
 
-              <div id="curriculum">
+              <div id="Admission Process">
                 <div>
                   <h3>
                     <strong>
-                      International Management Institute Courses 2023
+                      Greater Noida Institute of Technology MBA Institute
+                      Application Process:
                     </strong>
                   </h3>
                   <p>
-                    International Management Institute Delhi Courses include
-                    management study programme. Here are the details about the
-                    duration and fee structure of the particular courses.
+                    Candidates had the option of offline application completion.
+                    Candidates could pick it up from the college's admissions
+                    office. For each course, candidates must complete a separate
+                    application form. The application fee may only be paid in
+                    offline mode. Candidates for the MBA programme must submit
+                    an online application for UPSEE-MBA counselling through the
+                    organization's website.
                   </p>
-                  <table className="table table-striped style_table">
-                    <tbody>
-                      <tr>
-                        <td>
-                          <p>
-                            <strong>Management Courses</strong>
-                          </p>
-                        </td>
-                        <td>
-                          <p>
-                            <strong>Years</strong>
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>PGDHRM</p>
-                        </td>
-                        <td>
-                          <p>2 years</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>PGDM BFS</p>
-                        </td>
-                        <td>
-                          <p>2 years</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>PGDM</p>
-                        </td>
-                        <td>
-                          <p>2 years</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>PGDM Executive</p>
-                        </td>
-                        <td>
-                          <p>1 year</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>Fellow program in management</p>
-                        </td>
-                        <td>
-                          <p>4 years</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>Executive- FPM</p>
-                        </td>
-                        <td>
-                          <p>4 years</p>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <h3>
-                    <strong>IMI Delhi MBA Fees 2023</strong>
-                  </h3>
                   <p>
-                    As mentioned above, the International Management Institute
-                    New Delhi is a reputed private business institute situated
-                    in National Capital. Here is the complete International
-                    Management Institute IMI Delhi MBA Fees 2023 that includes
-                    hostel fee and mess fee.
+                    <strong>
+                      <u>MBA</u>
+                    </strong>
                   </p>
-                  <table className="table table-striped style_table">
-                    <tbody>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;Visit UPSEE's official website.
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;Register yourself using the necessary information,
+                      including your password and UPSEE Application Number.
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;Log into your account after registering.
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;Upload all required documentation, then use the OTP
+                      that is generated after document verification to complete
+                      the selection.
+                    </li>
+                    <li>&nbsp;Fill in the course and college options.</li>
+                    <li>
+                      &nbsp;Online through Net Banking/Credit or Debit card, pay
+                      the counselling fee of INR 20, 000 (for general category)
+                      and INR 12, 000 (for SC/ ST candidates).
+                    </li>
+                    <li>
+                      &nbsp;If there are any discrepancies, go over the decision
+                      again, make any necessary changes, and then lock it.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="review">
+                <div>
+                  <p>
+                    <strong>Documents Required:</strong>
+                  </p>
+                  <ul class="list-unstyled">
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;UPSEE scorecard
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;Mark sheet of Class XII
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp; Domicile certificate
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp; Character Certificate
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp; Medical Fitness certificate
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp; Category certificate
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;Income certificate
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp;GDDA category certificate
+                    </li>
+                    <li>
+                      <i
+                        class="fa fa-fw fa-check-circle"
+                        aria-hidden="true"
+                      ></i>
+                      &nbsp; Sub-category certificate for freedom fighters/
+                      physically handicapped etc.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="member">
+                <div>
+                  <h3>
+                    <strong>
+                      Greater Noida Institute Of Technology MBA Institute Cut
+                      Off:
+                    </strong>
+                  </h3>
+                  <table class="table style_table table-striped table-bordered ">
+                    <thead>
                       <tr>
                         <td>
                           <p>
@@ -170,100 +342,33 @@ const CourseDetailsLeftSideGniot = () => {
                         </td>
                         <td>
                           <p>
-                            <strong>Total Fees</strong>
+                            <strong>AI</strong>
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            <strong>TFW</strong>
                           </p>
                         </td>
                       </tr>
+                    </thead>
+                    <tbody>
                       <tr>
                         <td>
-                          <p>PGDHRM</p>
+                          <p>
+                            <strong>BBA + MBA</strong>
+                          </p>
                         </td>
                         <td>
-                          <p>18,34,900 INR</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>PGDM BFS</p>
+                          <p>220</p>
                         </td>
                         <td>
-                          <p>18,34,900 INR</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>PGDM</p>
-                        </td>
-                        <td>
-                          <p>18,34,900 INR</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>PGDM Executive</p>
-                        </td>
-                        <td>
-                          <p>12,17,500 INR</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>Fellow Programme in Management</p>
-                        </td>
-                        <td>
-                          <p>Yet to be changed</p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p>Executive- FPM</p>
-                        </td>
-                        <td>
-                          <p>502,000 INR (Excluding hostel)</p>
+                          <p>159</p>
                         </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
-              </div>
-              <div id="review">
-                <div>
-                  <h3>
-                    <strong>IMI Eligibility Criteria 2023</strong>
-                  </h3>
-                  <p>
-                    IMI Eligibility Criteria 2023 is compulsory to fulfill by
-                    the students seeking admission in the Institute. If any
-                    candidate does not manage to fulfill below-mentioned
-                    criteria then he/she will be considered as disqualified.
-                  </p>
-                  <ul>
-                    <li>
-                      50% marks in bachelors degree from a valid university or
-                      college.
-                    </li>
-                    <li>
-                      Some relaxation will be offered to eligible students
-                    </li>
-                    <li>
-                      Graduation final year students are allowed to apply for
-                      Admission but they have to submit their final documents
-                      before 30th Sept 2023.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div id="member">
-                <h3>
-                  <strong>IMI Admission Process 2023</strong>
-                </h3>
-                <p>
-                  IMI Admission 2023 will be invited once the candidate fulfils
-                  the IMI eligibility criteria. Follow the information about the
-                  IMI Admission and submit important documents within given
-                  deadlines. Click Here for Getting complete information related
-                  to Admission 2023.
-                </p>
               </div>
             </div>
           </div>

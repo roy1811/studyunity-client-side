@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
-import BreadCrumb from "../../../components/common/BreadCrumb";
+import BreadCrumb from "../../../components/CourseDetailsBennett/BreadCrumb";
 import Footer from "../../../components/common/Footer";
-import CourseDetailsArea from "../../../components/CourseDetailsBennettUniversity/CourseDetailsArea";
+import CourseDetailsArea from "../../../components/CourseDetailsBennett/CourseDetailsArea";
 import Header from "../../../components/Home/Header";
 import SEO from "../../../components/seo";
 import { useGetCourseQuery } from "../../../redux/api/apiSlice";
-import DetailsTabItems from "../../../components/CourseDetailsBennettUniversity/DetailsTabItems";
+import DetailsTabItems from "../../../components/CourseDetailsBennett/DetailsTabItems";
 
-const Iminewdelhi = () => {
+const BennettUniversity = () => {
   const {
     data: course,
     isLoading,
@@ -43,4 +43,4 @@ const Iminewdelhi = () => {
   );
 };
 
-export default Iminewdelhi;
+export default BennettUniversity;
