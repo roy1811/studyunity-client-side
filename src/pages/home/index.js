@@ -11,13 +11,12 @@ import ResearchArea from "../../../components/Home/ResearchArea";
 import Cta from "../../../components/Home/Cta";
 import Footer from "../../../components/common/Footer";
 import SEO from "../../../components/seo";
-import DynamicPageHeader from "../../components/common/DynamicPageHeader";
 
 export default function Home() {
   return (
     <>
       <SEO pageTitle="Home Default" />
-      <DynamicPageHeader />
+
       <Header />
       <HeroArea />
       <Features />

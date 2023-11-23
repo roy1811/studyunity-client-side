@@ -1,5 +1,5 @@
 import React from "react";
-import Events from "../../../components/events/Events";
+
 import BrandArea from "../../../components/HomeTwo/BrandArea";
 import CategoryArea from "../../../components/HomeTwo/CategoryArea";
 import CourseArea from "../../../components/HomeTwo/CourseArea";
@@ -21,7 +21,7 @@ const HomeTwo = () => {
       <CategoryArea />
       <CourseArea />
       <ResearchArea />
-      <Events />
+
       <TeamArea />
       <Testimonials />
       <BrandArea />
