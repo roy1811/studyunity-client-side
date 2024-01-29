@@ -6,8 +6,8 @@ const BreadCrumb = ({ title, subtitle }) => {
       <section
         className="breadcrumb__area include-bg pt-150 pb-150 "
         style={{
-          background: `url(assets/img/course/management/imi.jpg)`,
-          backgroundPosition: "center",
+          background: `url(assets/img/breadcrumb/breadcrumb-bg-1.jpg)`,
+          
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}

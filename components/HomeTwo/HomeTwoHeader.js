@@ -52,7 +52,7 @@ const HomeTwoHeader = () => {
                 <div className="col-xxl-8 col-xl-9 col-lg-10 col-md-6 col-6">
                   <div className="header__bottom-left d-flex align-items-center">
                     <div className="logo mt-10 mb-5">
-                      <Link href="http://localhost:3000/">
+                      <Link href="https://studyunity.in/">
                         <a>
                           <img src="assets/img/logo/logo.png" alt="logo" />
                         </a>

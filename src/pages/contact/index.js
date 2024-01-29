@@ -2,18 +2,18 @@ import React from "react";
 import BreadCrumb from "../../../components/common/BreadCrumb";
 import ContactArea from "../../../components/Contact/ContactArea";
 import ContactFooter from "../../../components/Contact/ContactFooter";
-import ContactInfoArea from "../../../components/Contact/ContactInfoArea";
+
 import Header from "../../../components/common/Header";
 import SEO from "../../../components/seo";
 
 const Contact = () => {
   return (
     <>
-      <SEO pageTitle="Contact" />
+      <SEO pageTitle="Studyunity | Contact" />
       <Header />
-      <BreadCrumb title="Contact" subtitle="Contact" />
+      <BreadCrumb  />
       <ContactArea />
-      <ContactInfoArea />
+      
       <ContactFooter />
     </>
   );

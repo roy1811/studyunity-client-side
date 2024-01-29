@@ -8,26 +8,7 @@ import { useGetCourseQuery } from "../../../redux/api/apiSlice";
 import DetailsTabItems from "../../../components/CourseDetailsLbsimDelhi/DetailsTabItems";
 
 const Lbsimdelhi = () => {
-  const {
-    data: course,
-    isLoading,
-    isError,
-  } = useGetCourseQuery("6517024f25ab335c6e47b5df");
-  // decide to render
-  let content = null;
-  // loader
-  if (isLoading && !isError) {
-    content = (
-      <div className="container">
-        <h2 className="text-center pt-10 alert alert-info mt-50">Loading...</h2>
-      </div>
-    );
-  }
-
-  if (!isLoading && !isError) {
-    content = <CourseDetailsArea courseData={course} />;
-  }
-
+  
   return (
     <>
       <SEO
@@ -37,7 +18,7 @@ const Lbsimdelhi = () => {
       <Header />
       <BreadCrumb title="Our Courses" subtitle="Courses" />
 
-      {content}
+      <CourseDetailsArea />
       <Footer />
     </>
   );

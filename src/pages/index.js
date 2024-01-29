@@ -16,7 +16,7 @@ import Footer from "../../components/common/Footer";
 export default function Home() {
   return (
     <>
-      <SEO pageTitle="Studyunity" />
+      <SEO pageTitle="Studyunity | best Education Consultancy" />
       <HomeTwoHeader />
       <HeroArea />
       <Features />
@@ -24,7 +24,7 @@ export default function Home() {
       <CourseArea />
       <AboutArea />
       <CounterArea />      
-      <Testimonials />      
+     {/* <Testimonials /> */}     
       <Footer />
     </>
   );

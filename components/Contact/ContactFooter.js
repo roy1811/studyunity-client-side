@@ -46,18 +46,12 @@ const ContactFooter = () => {
                                     <li>
                                        <a href="#">Success story</a>
                                     </li>
-                                    <li>
-                                       <a href="#">Courses</a>
-                                    </li>
+                                    
                                     <li>
                                        <a href="#">About us</a>
                                     </li>
-                                    <li>
-                                       <a href="#">Instructor</a>
-                                    </li>
-                                    <li>
-                                       <a href="#">Events</a>
-                                    </li>
+                                    
+                                    
                                     <li>
                                        <a href="#">Contact us</a>
                                     </li>
@@ -73,18 +67,14 @@ const ContactFooter = () => {
                                     <li>
                                        <a href="#">News & Blogs</a>
                                     </li>
-                                    <li>
-                                       <a href="#">Library</a>
-                                    </li>
+                                    
                                     <li>
                                        <a href="#">Gallery</a>
                                     </li>
                                     <li>
                                        <a href="#">Terms of service</a>
                                     </li>
-                                    <li>
-                                       <a href="#">Membership</a>
-                                    </li>
+                                    
                                     <li>
                                        <a href="#">Career</a>
                                     </li>
@@ -119,7 +109,7 @@ const ContactFooter = () => {
                         <div className="row">
                            <div className="col-xxl-12">
                               <div className="footer__copyright text-center">
-                                 <p>© 2022 Educal. All Rights Reserved</p>
+                                 <p>© 2023 Studyunity. All Rights Reserved</p>
                               </div>
                            </div>
                         </div>

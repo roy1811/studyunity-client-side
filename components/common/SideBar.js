@@ -64,30 +64,25 @@ const Sidebar = ({ show, handleClose }) => {
                               {
                                  !user?.email &&
                                  <>
-                                    <Collapsible trigger={<Link href="/">Home</Link>} triggerTagName="div"
-                                       triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                                       <ul className="sidebar_sub_menu submenu text-white">
-                                          <li><Link href="/home"><a >Home Style 1</a></Link></li>
-                                          <li><Link href="/home-two"><a >Home Style 2</a></Link></li>
-                                          <li><Link href="/home-three"><a >Home Style 3</a></Link></li>
-                                       </ul>
-                                    </Collapsible>
-
+                                    
+                                    <div className='single_link iconAdd '>
+                                       <li><Link href="/"><a>Home</a></Link></li>
+                                    </div>
                                     <div className='single_link iconAdd '>
                                        <li><Link href="/about"><a>About</a></Link></li>
                                     </div>
 
-                                    <Collapsible trigger={<Link href="/courses">Courses</Link>} triggerTagName="div"
+                                    <Collapsible trigger={<Link href="#">Our Services</Link>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
-                                          <li><Link href="/courses"><a>Course Style 1</a></Link></li>
-                                          <li><Link href="/courses-style-two"><a>Course Style 2</a></Link></li>
-                                          <li><Link href="/course-sidebar"><a>Course Sidebar</a></Link></li>
-                                          <li><Link href="/course-details"><a>Course Details</a></Link></li>
+                                          <li><Link href="#"><a>Management</a></Link></li>
+                                          <li><Link href="#"><a>Engineering</a></Link></li>
+                                          <li><Link href="#"><a>MBBS</a></Link></li>
+                                          <li><Link href="#"><a>MBBS Abroad</a></Link></li>
                                        </ul>
                                     </Collapsible>
 
-                                    <Collapsible trigger={<Link href="/about">Pages</Link>} triggerTagName="div"
+                                    {/*<Collapsible trigger={<Link href="/about">Pages</Link>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                                        <ul className="sidebar_sub_menu submenu text-white">
                                           <li><Link href="/events"><a >Our Events</a></Link></li>
@@ -100,15 +95,11 @@ const Sidebar = ({ show, handleClose }) => {
                                           <li><Link href="/cart"><a >Cart</a></Link></li>
                                           <li><Link href="/checkout"><a >Checkout</a></Link></li>
                                        </ul>
-                                    </Collapsible>
+                              </Collapsible>*/}
 
-                                    <Collapsible trigger={<Link href="/blog">Blog</Link>} triggerTagName="div"
-                                       triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                                       <ul className="sidebar_sub_menu submenu text-white">
-                                          <li><Link href="/blog"><a >Blog</a></Link></li>
-                                          <li><Link href="/blog-details"><a >Blog Details</a></Link></li>
-                                       </ul>
-                                    </Collapsible>
+                                    <div className='single_link iconAdd border-0'>
+                                       <li><Link href="#"><a >Blog</a></Link></li>
+                                    </div>
 
                                     <div className='single_link iconAdd border-0'>
                                        <li><Link href="/contact"><a >Contact</a></Link></li>
@@ -155,7 +146,7 @@ const Sidebar = ({ show, handleClose }) => {
                                  <i className="fal fa-map-marker-alt"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">12/A, Mirnada City Tower, NYC</a>
+                                 <a target="_blank" rel="noreferrer" href="https://maps.app.goo.gl/tgMagkqLCcXXeTtM7">office number-14, A-25, Sector 3, Noida, Uttar Pradesh 201301</a>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -163,7 +154,7 @@ const Sidebar = ({ show, handleClose }) => {
                                  <i className="far fa-phone"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <a href="mailto:support@gmail.com">088889797697</a>
+                                 <a href="tel:+91 9625951515">+91 9625951515</a>
                               </div>
                            </li>
                            <li className="d-flex align-items-center">
@@ -171,7 +162,7 @@ const Sidebar = ({ show, handleClose }) => {
                                  <i className="fal fa-envelope"></i>
                               </div>
                               <div className="offcanvas__contact-text">
-                                 <a href="tel:+012-345-6789">support@mail.com</a>
+                                 <a href="mailto:info@studyunity.in">info@studyunity.in</a>
                               </div>
                            </li>
                         </ul>

@@ -9,7 +9,7 @@ const CourseDetailsArea = ({ courseData }) => {
         <div className="container">
           <div className="row">
             <CourseDetailsLeftSideGniot courseData={courseData} />
-            <CourseDetailsRightSide courseData={courseData} />
+            {/*} <CourseDetailsRightSide courseData={courseData} />*/}
           </div>
         </div>
       </section>

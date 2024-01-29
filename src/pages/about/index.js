@@ -16,10 +16,7 @@ const About = () => {
       <Header />
       <BreadCrumb title="About" subtitle="About" />
       <AboutArea about_pt="pt-120" />
-      <HomeCourses />
-      <TeamArea />
-      <Testimonials />
-      <BrandArea />
+      
       <Footer />
     </>
   );

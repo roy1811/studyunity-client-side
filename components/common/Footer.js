@@ -12,7 +12,7 @@ const ContactFooter = () => {
                   <div className="footer__widget footer-col-1 mb-50">
                     <div className="footer__logo">
                       <div className="logo">
-                        <Link href="/">
+                        <Link href="https://studyunity.in/">
                           <a>
                             <img src="/assets/img/logo/logo-white.png" alt="" />
                           </a>
@@ -22,8 +22,8 @@ const ContactFooter = () => {
                     <div className="footer__widget-content">
                       <div className="footer__widget-info">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisc ing
-                          elit. Nunc maximus, nulla utlaoki comm odo sagittis.
+                        Chase Your Aspirations with Us - Beyond Consultancy. 
+                        Your Trusted Education Consultant for Engineering, Medical, Management, and Job-Oriented Courses in India and Abroad.
                         </p>
                         <div className="footer__social">
                           <h4>Follow Us</h4>
@@ -61,18 +61,14 @@ const ContactFooter = () => {
                         <li>
                           <a href="#">Success story</a>
                         </li>
-                        <li>
-                          <a href="#">Courses</a>
-                        </li>
+                        
                         <li>
                           <a href="#">About us</a>
                         </li>
                         <li>
                           <a href="#">Instructor</a>
                         </li>
-                        <li>
-                          <a href="#">Events</a>
-                        </li>
+                        
                         <li>
                           <a href="#">Contact us</a>
                         </li>
@@ -88,18 +84,14 @@ const ContactFooter = () => {
                         <li>
                           <a href="#">News & Blogs</a>
                         </li>
-                        <li>
-                          <a href="#">Library</a>
-                        </li>
+                        
                         <li>
                           <a href="#">Gallery</a>
                         </li>
                         <li>
                           <a href="#">Terms of service</a>
                         </li>
-                        <li>
-                          <a href="#">Membership</a>
-                        </li>
+                        
                         <li>
                           <a href="#">Career</a>
                         </li>
@@ -139,7 +131,7 @@ const ContactFooter = () => {
                 <div className="row">
                   <div className="col-xxl-12">
                     <div className="footer__copyright text-center">
-                      <p>© 2022 Educal. All Rights Reserved</p>
+                      <p>© 2023 Studyunity. All Rights Reserved</p>
                     </div>
                   </div>
                 </div>

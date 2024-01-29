@@ -46,7 +46,7 @@ const DynamicPageHeader = () => {
                   <div className="header__info">
                     <ul>
                       <li>
-                        <a href="mailto:info@studyunity.com">
+                        <a href="mailto:info@studyunity.in">
                           <svg viewBox="0 0 15 13">
                             <path
                               fillRule="evenodd"

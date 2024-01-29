@@ -61,6 +61,9 @@ const ResearchArea = () => {
           Expert Guidance <br /> Counselling by Experts{" "}
         </h4>
       ),
+      description: (
+        <p>Receive expert counseling and guidance from seasoned professionals at Expert Guidance.</p>
+      ),
       bg_class: "",
     },
     {
@@ -122,6 +125,10 @@ const ResearchArea = () => {
           Admission <br /> All the process
         </h4>
       ),
+      description: (
+        <p>Streamlined admission process encompassing every step.  </p>
+      ),
+      
       bg_class: "yellow-bg",
     },
     {
@@ -158,6 +165,9 @@ const ResearchArea = () => {
         </svg>
       ),
       title: <h4>Documentation </h4>,
+      description: (
+        <p>Comprehensive documentation providing clarity and guidance for seamless understanding and implementation.</p>
+      ),
       bg_class: "green-bg",
     },
   ];
@@ -193,7 +203,7 @@ const ResearchArea = () => {
                   ></div>
                   <div className="research__content-2 p-relative z-index-1">
                     <h3 className="research__title-2">
-                      Start Learning by Downloading Apps
+                      Start Your Educational Journey by Connecting with Us.
                     </h3>
 
                     {/*
@@ -231,10 +241,7 @@ const ResearchArea = () => {
                       </div>
                       <div className="research__features-content">
                         {research.title}
-                        <p>
-                          Learn from anywhere in the world on desktop mobile
-                          Phone with an Internet connection.
-                        </p>
+                        {research.description}
                       </div>
                     </div>
                   );
