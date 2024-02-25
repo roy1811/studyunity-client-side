@@ -5,7 +5,7 @@ import CourseDetailsArea from "../../../components/CourseDetailsImtGhaziabad/Cou
 import Header from "../../../components/Home/Header";
 import SEO from "../../../components/seo";
 import { useGetCourseQuery } from "../../../redux/api/apiSlice";
-import DetailsTabItems from "../../../components/CourseDetailsImtghaziabad/DetailsTabItems";
+
 
 const Imtghaziabad = () => {
   
